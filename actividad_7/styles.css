@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 10px 20px;
+  grid-gap: 10px;
   font-size: 40px;
   width: 100%;
   background-color: LightGray;
@@ -10,20 +10,25 @@
 
 .d1 {
   background-color: lightblue;
+  grid-column: 1 / 2;
 }
 
 .d2 {
   background-color: orange;
+  grid-column: 2 / 3;
 }
 
 .d3 {
   background-color: cyan;
+  grid-column: 3 / 4;
 }
 
 .d4 {
   background-color: pink;
+  grid-column: 1 / 2;
 }
 
 .d5 {
   background-color: lightgreen;
+  grid-column: 2 / 4; 
 }
